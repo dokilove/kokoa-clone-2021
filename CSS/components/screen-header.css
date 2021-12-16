@@ -16,5 +16,12 @@
 }
 
 .screen-header__icons span {
+  position: relative;
   margin-left: 20px;
+}
+
+.screen-header__icons-badge {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
