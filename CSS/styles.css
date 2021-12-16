@@ -15,3 +15,9 @@ body {
   color: #30373e;
   font-family: "Open Sans", sans-serif;
 }
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  /* screen header fixed대응*/
+  margin-top: 100px;
+}
