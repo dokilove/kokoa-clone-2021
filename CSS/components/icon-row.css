@@ -1,19 +1,30 @@
 .icon-row {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 25px;
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 25%;
+}
+
+.icon-row__icon-space {
+  width: 15%;
 }
 
 .icon-row__icon i {
   font-size: 35px;
+  margin-bottom: 18px;
+  position: relative;
 }
 
 .icon-row__icon span {
-  margin-top: 18px;
+  margin-top: 3px;
+}
+
+.icon-row__icon-badge {
+  position: absolute;
+  left: 36px;
+  bottom: 36px;
 }
