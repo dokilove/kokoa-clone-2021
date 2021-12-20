@@ -27,5 +27,5 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
   /* screen header fixed대응*/
-  margin-top: 100px;
+  margin-top: 125px;
 }
