@@ -109,19 +109,20 @@
   padding: 12px;
   width: 100%;
   border: var(--main-border);
-  border-radius: 20px;
+  border-radius: 25px;
+  box-sizing: border-box;
 }
 
 .reply__column:last-child > i,
 .reply button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: 3px;
+  top: 5px;
 }
 
 .reply__column:last-child > i {
   right: 40px;
-  top: 10px;
+  top: 12px;
 }
 
 .reply__column button {
