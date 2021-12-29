@@ -17,6 +17,8 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+/* for media queries last */
+@import "components/no-mobile.css";
 
 body {
   color: #30373e;
